@@ -28,6 +28,9 @@ export default Thankyou => {
             for a physical form.
           </p>
           <br />
+          <h2>Contact and Communications</h2>
+          <p>Your coach will reach out to you prior to the season.</p>
+          {/*
           <h2>Text Groups</h2>
           <p>
             Stay up to date by joining your text group. Click on the groups
@@ -64,7 +67,7 @@ export default Thankyou => {
                 Cheer
               </a>{' '}
             </li>
-          </ul>
+          </ul>*/}
         </div>
       </Section>
     </Layout>
