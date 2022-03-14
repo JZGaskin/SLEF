@@ -44,20 +44,3 @@ class MFApp extends React.Component {
 }
 
 export default MFApp
-
-{
-  /*
-<div id="mf_placeholder" 
-     data-formurl="https://littleeaglefootball.forms-db.com/embed.php?id=16349" 
-     data-formheight="5254"  
-     data-formtitle="2022 Football & Cheer Registration"  
-     data-paddingbottom="10">
-</div>
-<script>
-	(function(f,o,r,m){
-		r=f.createElement('script');r.async=1;r.src=o+'js/mf.js';
-		m=f.getElementById('mf_placeholder'); m.parentNode.insertBefore(r, m);
-	})(document,'https://assets.forms-db.com/');
-</script>
-*/
-}
