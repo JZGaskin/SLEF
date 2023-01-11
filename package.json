@@ -23,7 +23,7 @@
     "gatsby-remark-responsive-iframe": "^2.11.0",
     "gatsby-remark-wrap-iframe": "^1.1.0",
     "gatsby-source-filesystem": "^2.11.1",
-    "gatsby-transformer-remark": "^2.16.1",
+    "gatsby-transformer-remark": "^5.25.1",
     "gatsby-transformer-sharp": "^2.3.17",
     "gatsby-transformer-sqip": "^2.1.67",
     "intersection-observer": "^0.7.0",
