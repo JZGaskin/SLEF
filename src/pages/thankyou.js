@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from '../components/layout'
 import { Section } from '../utils'
 
-export default Thankyou => {
+const Thankyou = () => {
   return (
     <Layout>
       <br />
@@ -73,3 +73,5 @@ export default Thankyou => {
     </Layout>
   )
 }
+
+export default Thankyou;

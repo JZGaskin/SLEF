@@ -1,11 +1,11 @@
-import React from 'react'
-import { graphql } from 'gatsby'
-import Layout from '../components/layout'
-import { Section, Hero, Banner } from '../utils'
-import ContactBGI from '../components/ContactBGI'
+import React from 'react';
+import { graphql } from 'gatsby';
+import Layout from '../components/layout';
+import { Section, Hero, Banner } from '../utils';
+import ContactBGI from '../components/ContactBGI';
 
-export default ({ data }) => {
-  const post = data.markdownRemark
+const ContactPage = ({ data }) => {
+  const post = data.markdownRemark;
   return (
     <Layout>
       <Hero>
@@ -19,8 +19,10 @@ export default ({ data }) => {
         </div>
       </Section>
     </Layout>
-  )
-}
+  );
+};
+
+export default ContactPage;
 
 export const query = graphql`
   query($slug: String!) {
@@ -31,4 +33,4 @@ export const query = graphql`
       }
     }
   }
-`
+`;

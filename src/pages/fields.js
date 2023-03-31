@@ -3,7 +3,7 @@ import Layout from '../components/layout'
 import { Section, Hero, Banner } from '../utils'
 import FieldsBGI from '../components/FieldsBGI'
 
-export default Fields => {
+const Fields = () => {
   return (
     <Layout>
       <Hero>
@@ -79,3 +79,5 @@ export default Fields => {
     </Layout>
   )
 }
+
+export default Fields;

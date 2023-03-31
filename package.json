@@ -30,7 +30,6 @@
     "gatsby-transformer-sharp": "^5.8.0",
     "gatsby-transformer-sqip": "^5.8.1",
     "intersection-observer": "^0.12.2",
-    "netlify-cms": "^2.10.192",
     "netlify-cms-app": "^2.15.72",
     "npm-check-updates": "^16.9.0",
     "object-fit-images": "^3.2.4",
